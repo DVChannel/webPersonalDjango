@@ -31,3 +31,6 @@ def contact(request):
             <li><a href="https://youtube.com">Youtube</a></li>
         </ul>
     """)
+
+def home(request):
+    return render(request, "core/home.html")
